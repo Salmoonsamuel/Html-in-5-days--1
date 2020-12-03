@@ -1,0 +1,140 @@
+
+header {
+    background-color: #403933;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: inset 0 0 40px #000000;
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+  }
+  header nav ul li {
+    list-style-type: none;
+  }
+
+  header nav ul li a {
+    color: #c5c0b8;
+    text-decoration: none;
+    border:solid black;
+    border-radius: 30%;
+    box-shadow: inset 0 0 40px #000000;
+    padding: 10px 25px 10px 25px;
+    margin-right: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+  
+  header nav ul li a:hover {
+    color: #bdbdbd;
+  }
+img {
+    margin-top: 10px;
+    border: solid black 10px;
+    border-radius: 20%;
+    opacity: 55%;
+}
+body{
+    text-align: center;
+    background: repeating-linear-gradient(90deg, #403933 40px, black 80px); 
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+    color: #bdbdbd;
+    border-radius: 40%;
+}
+.logo {
+    font-family: cursive, 'Nanum Pen Script';
+    font-size: 42px;
+    color: #c5c0b8;
+    letter-spacing: -3;
+    margin: 0;
+    padding: 0 25px 0 25px;
+    border: solid black;
+    border-radius: 30%;
+    box-shadow: inset 0 0 40px #000000;
+  }
+
+  .dark-background {
+      background: repeating-linear-gradient(45deg, #403933 40px, black 80px) ;
+      text-align: center;
+      font-size: 30px;
+      color: black;
+      border:solid black;
+      border-radius: 30%;
+      margin-top: 50px;
+      box-shadow: inset 0 0 40px #000000;
+      font-family: serif;
+  }
+  .group {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    background-color: #403933;
+    box-shadow: inset 0 0 40px #000000;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 10px;
+    color: burlywood;
+    font-size: 20px;
+    border: solid black;
+    border-radius: 30px;
+    background: repeating-linear-gradient(45deg, #403933 40px, black 80px);
+  }
+  
+  .item-double {
+    display: flexbox;
+    flex-direction: row;
+    margin: 100px;
+    text-align: center;
+    color: burlywood;
+    font-size: 30px;
+    border: solid black;
+    border-radius: 30px;
+    background: repeating-linear-gradient(45deg, #403933 40px, black 80px) ;
+  }
+
+  .content{
+    display: inline-flex;
+    color: skyblue;
+    font-family: Helvetica;
+    padding: 30px;
+    border: solid black;
+    border-radius: 30px;
+    background: repeating-linear-gradient(45deg, #403933 40px, black 80px) ;
+    box-shadow: inset 0 0 40px #000000;
+    text-align: center;
+  }
+  .content1{
+    background:#403933;
+    border: solid #403933;
+    box-shadow: inset 0 0 40px #000000;
+
+  }
+  @media all and (min-width: 700px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .logo {
+      margin: 14px 0px 14px 100px;
+      padding-top: 0;
+      font-size: 50px;
+    }
+    
+    header nav {
+      margin-top: 14px;
+      margin-right: 190px;
+    }
+  }
